@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style/style.css">
+    <title>Coding Assessment</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="time" style="display:block;">Time: </h1>
+        <div class="container">
+
+            <div id="question-container">
+                <!-- new element was added -->
+                <div id="question" class="">Answer the following ten questions on various Coding topics. Know that you
+                    have 100 seconds
+                    to complete it. Please, choose from the following 4 answers. Good Luck!</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+
+                <div class="controls">
+                    <button id="start-btn" class="start-btn btn">Start</button>
+                    <button id="next-btn" class="next-btn btn hide">Next</button>
+                </div>
+            </div>
+
+            <div id="finalScreen" class="hide">
+                <h2>This is The Final Screen.</h2>
+                <h3>Your final Score is <span id="FinalScore"></span></h3>
+                <h3>Your Remaining time is <span id="timeLeft"></span></h3>
+                <h3>Please enter your name here</h3>
+                <input id="nameInput" />
+                <button id="submitButton">submit</button>
+            </div>
+        </div>
+
+        <div class="score">
+            <span id="right-answers"></span>
+            <span id="ansResult" style="font-size:18px;color:White"></span>
+
+        </div>
+    </main>
+    <script src="style/javascript.js"></script>
+</body>
+
+</html>
